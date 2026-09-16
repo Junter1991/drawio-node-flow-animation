@@ -25,6 +25,7 @@
 | `dist/drawio-node-flow-en.js` | 固定英文菜单 |
 
 每个版本都提供压缩版 `.min.js`。为兼容已有安装，`drawio-node-flow.js` 仍然是自动识别版的别名。
+三个 ZIP 安装包位于 [`release/`](release/)： [自动识别版](release/drawio-node-flow-auto.zip)、[中文版](release/drawio-node-flow-zh.zip)、[英文版](release/drawio-node-flow-en.zip)。
 
 ## 开发
 

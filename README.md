@@ -25,6 +25,7 @@ Start draw.io Desktop with `--enable-plugins`, load one of the files in `dist/`,
 | `dist/drawio-node-flow-en.js` | English menu labels |
 
 Minified `.min.js` files are provided for each build. `drawio-node-flow.js` remains an alias of the auto-detect build for existing installations.
+ZIP bundles are available in [`release/`](release/): [auto](release/drawio-node-flow-auto.zip), [中文](release/drawio-node-flow-zh.zip), and [English](release/drawio-node-flow-en.zip).
 
 ## Development
 
