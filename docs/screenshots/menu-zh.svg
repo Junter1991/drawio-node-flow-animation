@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="520" viewBox="0 0 620 520">
+  <rect width="620" height="520" fill="#f5f5f5"/>
+  <rect x="18" y="18" width="584" height="484" rx="5" fill="#fff" stroke="#c8c8c8"/>
+  <text x="42" y="52" font-family="Microsoft YaHei,Arial" font-size="18" fill="#333">其它 / Extras</text>
+  <line x1="35" y1="68" x2="585" y2="68" stroke="#ddd"/>
+  <g font-family="Microsoft YaHei,Arial" font-size="16" fill="#333">
+    <text x="42" y="102">✓</text><text x="72" y="102">启用/禁用 Node Flow</text>
+    <text x="42" y="140">✓</text><text x="72" y="140">动画样式：红点流动</text>
+    <text x="42" y="178">动画样式：移动虚线</text>
+    <text x="42" y="216">动画样式：移动圆点</text>
+    <text x="42" y="254">动画样式：强调流线</text>
+    <text x="42" y="292">✓</text><text x="72" y="292">动画方向：正向</text>
+    <text x="42" y="330">动画方向：反向</text>
+    <text x="42" y="368">动画方向：交替</text>
+    <text x="42" y="406">动画速度：快速</text>
+    <text x="42" y="444">✓</text><text x="72" y="444">动画速度：标准</text>
+    <text x="42" y="482">停止 Node Flow</text>
+  </g>
+  <text x="360" y="140" font-family="Microsoft YaHei,Arial" font-size="14" fill="#b3261e">当前配置显示在最左侧</text>
+  <text x="360" y="164" font-family="Microsoft YaHei,Arial" font-size="14" fill="#b3261e">红点数量按线长自动计算</text>
+</svg>

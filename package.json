@@ -1,0 +1,10 @@
+{
+  "name": "drawio-node-flow-web",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Node driven flow animation plugin for draw.io web",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "build": "node scripts/build.js"
+  }
+}
