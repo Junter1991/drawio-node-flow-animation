@@ -8,6 +8,8 @@
 
 An open-source draw.io plugin that animates outgoing connectors when a node is selected. It supports direct outgoing edges, Shift-click path mode, moving dash/dots/emphasis styles, and a line-preserving red-particle effect.
 
+![Node Flow Animation demo](example.gif)
+
 ## Features
 
 - Direct mode: click a node to animate its outgoing connectors.
