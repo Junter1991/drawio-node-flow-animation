@@ -1,4 +1,10 @@
-# draw.io Node Flow Animation 插件
+<div align="center">
+  <h1>draw.io Node Flow Animation</h1>
+  <p>面向 draw.io 的节点驱动连接线动画插件</p>
+  <p><a href="README.md">English</a> | <a href="README.zh-CN.md">中文</a></p>
+</div>
+
+---
 
 这是一个开源 draw.io 插件。选中节点后，插件会为该节点的出线添加动画；支持直接出线、Shift+点击下游路径，以及移动虚线、移动圆点、强调流线和红点流动效果。
 

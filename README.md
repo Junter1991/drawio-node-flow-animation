@@ -1,4 +1,10 @@
-# draw.io Node Flow Animation Plugin
+<div align="center">
+  <h1>draw.io Node Flow Animation</h1>
+  <p>Node-driven connector animation for draw.io</p>
+  <p><a href="README.md">English</a> | <a href="README.zh-CN.md">中文</a></p>
+</div>
+
+---
 
 An open-source draw.io plugin that animates outgoing connectors when a node is selected. It supports direct outgoing edges, Shift-click path mode, moving dash/dots/emphasis styles, and a line-preserving red-particle effect.
 
