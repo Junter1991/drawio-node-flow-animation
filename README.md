@@ -16,6 +16,7 @@ An open-source draw.io plugin that animates outgoing connectors when a node is s
 - Path mode: Shift-click a node to animate all reachable downstream connectors.
 - Four visual styles: moving dash, moving dots, emphasis line, and red particles.
 - Red particles keep the connector unchanged and overlay a length-based number of red dots (2–12, about one per 100px).
+- Particle timing scales with connector length, so red dots move at a consistent pixel speed on short and long connectors.
 - Forward, reverse, and alternating directions; fast, normal, and slow speeds.
 - Native menu checkmarks show the active configuration.
 - View-only animation: the mxGraph model and saved diagram are not modified.

@@ -18,6 +18,8 @@ test('plugin defines a line-preserving red particle animation', () => {
   assert.match(source, /settings\.speed \* 2/);
   assert.match(source, /Math\.round\(length \/ 100\)/);
   assert.match(source, /Math\.max\(2, Math\.min\(12/);
+  assert.match(source, /particleDuration\(path\)/);
+  assert.match(source, /length \/ 100/);
 });
 
 test('plugin marks the active configuration in the extras menu', () => {

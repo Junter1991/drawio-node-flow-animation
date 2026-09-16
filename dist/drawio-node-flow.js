@@ -220,7 +220,7 @@
     function attachParticles(path, record) {
       var d = path.getAttribute && path.getAttribute('d');
       var parent = path.parentNode;
-      var duration = settings.speed * 2;
+      var duration = particleDuration(path);
       var count = particleCount(path);
       if (!d || !parent || !root.document || !root.document.createElementNS) return;
       if (record.particlePath === path && record.particleD === d && record.particles.length === count) {
@@ -259,12 +259,21 @@
       }
     }
 
-    function particleCount(path) {
+    function pathLength(path) {
       var length = 0;
       try {
         if (path && typeof path.getTotalLength === 'function') length = path.getTotalLength();
       } catch (_) {}
       if (!isFinite(length) || length <= 0) length = 240;
+      return length;
+    }
+
+    function particleDuration(path) {
+      return settings.speed * 2 * (pathLength(path) / 100);
+    }
+
+    function particleCount(path) {
+      var length = pathLength(path);
       return Math.max(2, Math.min(12, Math.round(length / 100)));
     }
 
